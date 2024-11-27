@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: rgb(233, 166, 207);
+}
+
+
+.container{
+    background: rgb(223, 49, 185);
+    width: 500px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 0px 19px 0px rgba(243, 241, 241, 0.75);
+               -webkit-box-shadow: 2px 0px 19px 0px rgba(250, 238, 238, 0.75);
+               -moz-box-shadow: 2px 0px 19px 0px rgba(0,0,0,0.75);
+}
+
+
+.container h1{
+    font-size: 35px;
+    text-align: center;
+    margin: 20px 0;
+    color:white;
+    font-weight: 700;
+    box-shadow: 2px 0px 19px 0px rgba(243, 241, 241, 0.75);
+               -webkit-box-shadow: 2px 0px 19px 0px rgba(250, 238, 238, 0.75);
+               -moz-box-shadow: 2px 0px 19px 0px rgba(0,0,0,0.75);
+    padding: 10px;
+}
+
+.countdown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+    overflow: hidden;
+    
+}
+
+.countdown span{
+    margin: 20px;
+    box-shadow: 2px 0px 19px 0px rgba(243, 241, 241, 0.75);
+    -webkit-box-shadow: 2px 0px 19px 0px rgba(250, 238, 238, 0.75);
+    -moz-box-shadow: 2px 0px 19px 0px rgba(245, 237, 237, 0.75);
+    padding: 10px 20px;
+    color:white;
+    font-size: 35px;
+    
+}
+
+.countdown p{
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    
+}
